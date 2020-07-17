@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #e2dde9;
+  opacity: 0.95;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 9999;
+  height: 3em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  border-bottom: 1px solid white;
+}
+
+.navbar-item {
+  background-color: #e2dde9;
+  text-align: center;
+}
