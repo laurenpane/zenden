@@ -7,6 +7,7 @@ export default function Navbar() {
       <p className="navbar-item">Home</p>
       <p className="navbar-item">About</p>
       <p className="navbar-item">Blog</p>
+      <p className="navbar-item">Contact Us</p>
     </div>
   );
 }

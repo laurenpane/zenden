@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&display=swap"
         rel="stylesheet"
       />
       <Navbar />

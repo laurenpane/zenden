@@ -1,11 +1,19 @@
 import React from "react";
+import purpleFlowers from "../Images/colourpaletteidea1.jpg";
 import "./Homepage.css";
 
 export default function Homepage() {
   return (
     <>
-      <h1>Zen Den</h1>
-      <p>
+      <img src={purpleFlowers} className="zenden-header" alt="zenden home" />
+      <h1 className="zenden-title logo">Welcome to Zen Den</h1>
+      <div className="features-grid">
+        <p className="features-item">Lifestyle</p>
+        <p className="features-item">Travel</p>
+        <p className="features-item">Wellbeing</p>
+        <p className="features-item">Fitness</p>
+      </div>
+      <p className="homepage-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ante nunc,
         convallis id accumsan vitae, ultrices id tortor. Vivamus odio lectus,
         convallis nec elit non, eleifend scelerisque mauris. Fusce pellentesque
