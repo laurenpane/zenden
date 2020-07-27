@@ -6,7 +6,7 @@ export default function Homepage() {
   return (
     <>
       <img src={purpleFlowers} className="zenden-header" alt="zenden home" />
-      <h1 className="zenden-title logo">Welcome to Zen Den</h1>
+      <h1 className="zenden-title logo">Zen Den</h1>
       <div className="features-grid">
         <p className="features-item">Lifestyle</p>
         <p className="features-item">Travel</p>
