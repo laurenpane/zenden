@@ -1,5 +1,5 @@
 .blog-page {
-  background-color: #bef1efc2;
+  background-color: #ddf1f1c2;
 }
 
 .blog-text {
@@ -8,7 +8,7 @@
 
 .blog-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   grid-gap: 2%;
   box-sizing: border-box;

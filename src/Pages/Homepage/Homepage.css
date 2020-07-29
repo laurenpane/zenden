@@ -1,11 +1,12 @@
 .homepage {
-  background-color: #c8dce7;
+  background-color: #e4eff5;
   box-sizing: border-box;
+  padding-bottom: 2%;
 }
 
 .zenden-title {
   text-align: center;
-  color: white;
+  color: #001d1bc2;
   /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000; */
   position: absolute;
@@ -22,15 +23,15 @@
 
 .zenden-header {
   width: 100%;
-  opacity: 1;
+  opacity: 0.4;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 4%;
+  padding-top: 3.5%;
   position: relative;
 }
 
 .homepage-text {
-  padding: 3%;
+  padding: 2%;
   box-sizing: border-box;
   background-color: white;
   margin: 2%;

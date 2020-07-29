@@ -1,0 +1,11 @@
+.footer {
+  background-image: url(https://swelllodge.com/wp-content/uploads/2016/12/background-blog.jpg);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  opacity: 0.9;
+}
+
+.footer-item {
+  width: 11%;
+}
