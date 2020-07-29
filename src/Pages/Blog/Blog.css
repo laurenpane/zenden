@@ -1,0 +1,45 @@
+.blog-page {
+  background-color: #bef1efc2;
+}
+
+.blog-text {
+  padding: 5% 2% 1% 2%;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-gap: 2%;
+  box-sizing: border-box;
+  padding: 2%;
+}
+
+.blog-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 4%;
+  box-sizing: border-box;
+}
+
+.blog-item-title {
+  color: black;
+}
+
+.blog-item-image {
+  opacity: 0.5;
+  width: 100%;
+}
+
+.blog-item-title {
+  font-weight: bold;
+}
+
+.blog-item-description {
+  text-align: justify;
+  color: black;
+}

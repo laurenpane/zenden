@@ -28,6 +28,8 @@
   padding: 1%;
   box-sizing: border-box;
   font-weight: bold;
+  align-self: center;
+  text-decoration: none;
 }
 
 .navbar-item:hover {
